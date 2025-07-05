@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anuj's Portfolio</title>
+
+  <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/ProfilePic.jpg" alt="Richard hanrick" width="80" style="border-radius: 10%;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Anuj Kumar Tiwari</h1>
+
+          <p class="title">Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:anujkumartiwari262@gmail.com" class="contact-link">anujkumartiwari262@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918182835592" class="contact-link">+918182835592</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">February 12 , 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ghaziabad,Uttar Pradesh,India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          
+          <li class="social-item">
+            <a href="https://github.com/anuj9001" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/anujkumartiwari9001" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.self.so/anujkumartiwari262" class="social-link">
+            <ion-icon name="aperture-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Certification</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           Hello! I’m Anuj Kumar Tiwari, a passionate and detail-oriented B.Tech (Information Technology) student
+            at KIET Group of Institutions (2022–2026). I thrive at the intersection of creativity and logic, combining 
+           my love for clean UI with strong problem-solving abilities in Data Structures and Algorithms.
+
+           With hands-on experience in frontend development using technologies like HTML, CSS, JavaScript,
+           React.js, and Node.js, I enjoy transforming ideas into responsive and dynamic web applications.
+           I have completed internships and built projects that focus on real-world impact, such as Festive Donation 
+           and a Portfolio Website that reflects my journey.
+          </p>
+
+          <p>
+            I'm deeply passionate about full-stack development using the MERN stack.
+             From building intuitive frontends with React.js to developing robust backends
+              with Node.js and Express, and managing data seamlessly with MongoDB, I enjoy 
+              crafting complete web solutions. I love working on projects that solve real-world problems, 
+              ensuring scalability, responsiveness, and performance. My focus is on writing clean, maintainable
+               code and continuously improving user experience through effective design and efficient architecture.
+          </p>
+        </section>
+
+
+        <!--
+          Status
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Structures and Algorithms</h4>
+
+                <p class="service-item-text">
+                  Regularly practicing Complex Problems of Data Structures with Java.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="dev icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Internship</h4>
+
+                <p class="service-item-text">
+                  Doing internships to experience the real organizational environment.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="book icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Learning</h4>
+
+                <p class="service-item-text">
+                  Learning the core subjects of computer science like DBMS ,Computer Networks,Software Engineering and Architecture.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          Skills
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Technical Skills</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/html.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/css.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/js.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/react.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/java.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/sql.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/nodeJs.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/bootstrap.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/tailwind.svg" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Developer Tools</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/colab.svg" alt="logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/vs.svg" alt="logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/intellij.svg" alt="logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Eclipse IDE.svg" alt="logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/git.svg" alt="logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KIET Group of Institutions</h4>
+              <span>Bachelor of Technology, Information Technology</span>
+              <span>2022 — 2026</span>
+
+              <p class="timeline-text">
+                Ghaziabad, Uttar Pradesh, India
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dr.B.R.Ambedkar Computer Saksharta Misson</h4>
+              <span>Advance Diploma in Computer Applications</span>
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                Prayagraj, Uttar Pradesh, India
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">M.L.Public School</h4>
+              <span>Intermediate</span>
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                Prayagraj, Uttar Pradesh, India
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">M.L. Public School</h4>
+
+              <span>High School </span>
+              <span>2016 — 2018</span>
+
+              <p class="timeline-text">
+                Prayagraj, Uttar Pradesh, India
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+             <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Artificial Intelligence and Generative AI</h4>
+
+              <span>YBI Foundation</span>
+              <span>May 2025 - June 2025</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer Intern</h4>
+              <span>TechSonix Solutions</span>
+              <span>April 2025 - May 2025</span>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Frontend Developer Intern</h4>
+              <span>Oasis Infobyte</span>
+              <span>September 2024 - October 2024</span>
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Projects</h2>
+  </header>
+
+  <section class="projects">
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Web development</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+
+      <ul class="select-list">
+        <li class="select-item">
+          <button data-select-item>Web development</button>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="project-list">
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/weather.jpg" alt="finance" loading="lazy">
+          </figure>
+          <h3 class="project-title">Weather App</h3>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/ToDo.jpg" alt="orizon" loading="lazy">
+          </figure>
+          <h3 class="project-title">ToDo</h3>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/Portfolio.jpg" alt="summary" loading="lazy">
+          </figure>
+          <h3 class="project-title">Portfolio</h3>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/tempConverter.jpg" alt="arrival" loading="lazy">
+          </figure>
+          <h3 class="project-title">Temperture Converter</h3>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+<!-- Certifications -->
+
+
+<article class="certification" data-page="certification">
+
+  <header>
+    <h2 class="h2 article-title">Certifications</h2>
+  </header>
+
+  <section class="certification-section">
+    <ul class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Data Structures and Algorithms</h4>
+        <span>Infosys Springboard</span>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Web Development</h4>
+        <span>Linkedin Learning</span>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">MySQL</h4>
+        <span>Linkedin Learning</span>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Object Oriented Programming</h4>
+        <span>Linkedin Learning</span>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">AWS Academy Cloud Foundations</h4>
+        <span>Amazon AWS Academy</span>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Basics of Data Science and Analytics</h4>
+        <span>HP Foundations</span>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Introduction to Cyber Security</h4>
+        <span>Cisco Network Academy</span>
+      </li>
+
+    </ul>
+  </section>
+
+</article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.7470178247204!2d77.48998107488177!3d28.756969278420026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf41349b333d1%3A0x111d98bf2e1a4372!2sAsalat%20Nagar%2C%20Muradnagar%2C%20Uttar%20Pradesh%20201206!5e0!3m2!1sen!2sin!4v1751663796042!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
